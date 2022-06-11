@@ -1,0 +1,136 @@
+/* Цвет шапки и футера #2F303A */
+
+/* Основной цвет секции #FFFFFF */
+
+/* Дополнительный цвет секции #F5F4FA */
+
+/* Основной цвет текста #757575 */
+
+/* Дополнительный цвет текста #212121 */
+
+/* Визуальный цвет текста #2196F3 */
+
+:root {
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --primary-section-color: #FFFFFF;
+    --visual-text-color: #2196F3;
+}
+
+body {
+    background-color: var(--primary-section-color);
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/* Шапка сайта */
+/* Лого */
+
+.nav .logo {
+    color: var(--title-text-color)
+}
+
+.web {
+    color: var(--visual-text-color);
+}
+
+
+/* Навигация */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--visual-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--visual-text-color);
+}
+
+.auth-nav .link {
+    color: var(--primary-text-color);
+}
+
+/* Основной контент страницы Студии */
+
+/* Герой сайта */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero .title {
+    color: #ffffff;
+}
+
+.hero .button {
+    color: #FFFFFF;
+    background-color: var(--visual-text-color);
+}
+
+/* Особенности */
+
+.feauturies .title {
+    color: var(--title-text-color);
+}
+
+/* Чем мы занимаемся*/
+
+.specifics .title {
+    color: var(--title-text-color);
+}
+
+/* Наша команда */
+
+.team .title {
+    color: var(--title-text-color);
+}
+
+.team .name {
+    color: var(--title-text-color);
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team .avatar {
+    background-color: #FFFFFF;
+}
+/* Основной контент страницы Портфолио */
+
+.portfolio .button:focus,
+.portfolio .button:hover {
+    color: #FFFFFF;
+    background-color: var(--visual-text-color);
+}
+
+.portfolio .title {
+    color: var(--title-text-color);
+}
+
+/* Подвал сайта */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer .logo {
+    color: #FFFFFF;
+}
+
+.address {
+    color: #ffffff;
+}
+
+.logo:focus,
+.logo:hover {
+    color: var(--visual-text-color);
+}
