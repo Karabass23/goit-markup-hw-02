@@ -17,7 +17,6 @@
     --visual-text-color: #2196F3;
     --header-footer-color: #2F303A; 
     --additional-section-color: #F5F4FA;
-
 }
 
 body {
@@ -37,6 +36,7 @@ a {
 
 button {
     font-family: inherit;
+    cursor: pointer;
 }
 
 /* Шапка сайта */
@@ -96,23 +96,23 @@ button {
 .hero .title {
     color: var(--primary-section-color);
     font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero .button {
     color: var(--primary-section-color);
     background-color: var(--visual-text-color);
     font-weight: 700;
-        font-size: 16px;
-        line-height: 1.87;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .hero .button:hover,
@@ -126,15 +126,14 @@ button {
 .feauturies .title {
     color: var(--title-text-color);
     font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .feauturies .text {
-    font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 /* Чем мы занимаемся*/
@@ -142,9 +141,9 @@ button {
 .specifics .title {
     color: var(--title-text-color);
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        text-align: center;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
 
 /* Наша команда */
@@ -152,24 +151,23 @@ button {
 .team .title {
     color: var(--title-text-color);
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        text-align: center;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
 
 .team .name {
     color: var(--title-text-color);
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.18;
-        text-align: center;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
 }
 
 .team .job {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.18;
-        text-align: center;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
 }
 
 .team {
@@ -191,23 +189,22 @@ button {
     color: var(--title-text-color);
     background-color: var(--additional-section-color);
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.6;
-        text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
 }
 
 .portfolio .title {
     color: var(--title-text-color);
     font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .portfolio .text {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.87;
+    font-size: 16px;
+    line-height: 1.87;
 }
 
 /* Подвал сайта */
@@ -233,8 +230,8 @@ button {
 .footer .address {
     color: var(--primary-section-color);
     font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .footer .link {
