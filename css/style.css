@@ -223,7 +223,6 @@ button {
 
 .footer .text {
     color: var(--primary-section-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
